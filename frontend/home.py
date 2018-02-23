@@ -10,3 +10,8 @@ def index():
 @frontend_app.route('/sample_page')
 def sample_page():
     return render_template('sample_page.html')
+
+@frontend_app.route('/Shawnj_lama')
+def yonjan_page():
+    return render_template('duplicateversion.html')
+
